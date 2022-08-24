@@ -3,6 +3,7 @@ import WebisteNav from '@/components/WebisteNav.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import BrandsSection from '@/components/BrandsSection.vue'
 import AboutMeSection from '@/components/AboutMeSection.vue'
+import ServicesSection from '@/components/ServicesSection.vue'
 </script>
 
 <template>
@@ -10,4 +11,5 @@ import AboutMeSection from '@/components/AboutMeSection.vue'
   <HeroSection />
   <BrandsSection />
   <AboutMeSection />
+  <ServicesSection />
 </template>

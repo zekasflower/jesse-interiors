@@ -25,6 +25,6 @@ body { @apply font-work-sans min-h-screen bg-neutral-50 text-green-900 pt-[130px
 }
 
 .main-title {
-  @apply font-playfair font-bold text-5xl relative mb-6;
+  @apply font-playfair font-bold text-5xl relative mb-6 z-10;
   &.has-circle::before { @apply content-[''] absolute -top-3.5 -left-9 w-[84px] h-[84px] rounded-full bg-yellow-500 -z-10 }
 }

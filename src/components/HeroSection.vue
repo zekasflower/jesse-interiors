@@ -17,6 +17,7 @@
 <style lang="postcss" scoped>
 .hero-section {
   @apply h-[calc(100vh-130px)] bg-neutral-100 relative max-h-[1200px];
+  box-shadow: 0 0 50px -10px #05363422;
   .bg-img { @apply absolute right-0 top-0 h-full w-[62%] object-cover }
   .container {
     @apply h-full;
