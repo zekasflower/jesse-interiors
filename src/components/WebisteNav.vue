@@ -30,8 +30,8 @@ const NavbarLinks = ref(['Home', 'About', 'Services', 'Works', 'Blog', 'Contact'
 
 <style lang="postcss" scoped>
 .site-navbar {
-  @apply fixed top-0 left-0 bg-neutral-50 w-full h-[130px] flex items-center;
-  box-shadow: 0 0 50px #00000022;
+  @apply fixed top-0 left-0 bg-neutral-50 w-full h-[130px] flex items-center z-40;
+  box-shadow: 0 0 50px #05363433;
   .content-wrapper {
     @apply flex items-center justify-between;
     .left-side {
