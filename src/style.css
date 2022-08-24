@@ -4,6 +4,4 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply font-work-sans min-h-screen bg-neutral-100;
-}
+body { @apply font-work-sans min-h-screen h-[200rem] bg-neutral-100 text-green-900; }

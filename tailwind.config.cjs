@@ -22,6 +22,16 @@ module.exports = {
         },
         yellow: { 500: '#EBB017' }
       },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1rem',
+          lg: '2.25rem',
+        },
+      },
+      screens: {
+        '2xl': '1656px'
+      },
       fontFamily: {
         'work-sans': ['Work Sans', 'sans-serif'],
         'playfair': ['Playfair Display', 'sans-serif'],
