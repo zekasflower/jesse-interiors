@@ -30,7 +30,7 @@ const NavbarLinks = ref(['Home', 'About', 'Services', 'Works', 'Blog', 'Contact'
 
 <style lang="postcss" scoped>
 .site-navbar {
-  @apply fixed top-0 left-0 bg-neutral-100 w-full h-[130px] flex items-center;
+  @apply fixed top-0 left-0 bg-neutral-50 w-full h-[130px] flex items-center;
   box-shadow: 0 0 50px #00000022;
   .content-wrapper {
     @apply flex items-center justify-between;
@@ -39,7 +39,7 @@ const NavbarLinks = ref(['Home', 'About', 'Services', 'Works', 'Blog', 'Contact'
       .nav-links {
         @apply flex items-center gap-x-14;
         .nav-link {
-          @apply relative;
+          @apply relative uppercase;
           &::after {
             @apply content-[''] absolute top-full left-0  translate-y-[52px] scale-x-[2] h-1 w-full bg-transparent
             transition duration-300 rounded-full ease-in;

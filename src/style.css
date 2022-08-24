@@ -4,4 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
-body { @apply font-work-sans min-h-screen h-[200rem] bg-neutral-100 text-green-900; }
+::selection { @apply bg-green-500 text-neutral-100 }
+body { @apply font-work-sans min-h-screen bg-neutral-50 text-green-900 pt-[130px]; }
+
+.triangle-shape {
+  @apply absolute border-[54px] border-yellow-500;
+  &.top-left { @apply top-0 left-0 border-b-transparent border-r-transparent }
+  &.top-right { @apply top-0 right-0 border-b-transparent border-l-transparent }
+  &.bottom-left { @apply bottom-0 left-0 border-t-transparent border-r-transparent }
+  &.bottom-right { @apply bottom-0 right-0 border-t-transparent border-l-transparent }
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-x-2 border border-green-100 w-fit py-4 px-8 font-medium uppercase transition duration-300 ease-in;
+  .icon { @apply relative left-0 text-2xl transition-all duration-300 ease-in }
+  &:hover {
+    @apply bg-green-900 border-green-900 text-green-100;
+    .icon { @apply left-2 }
+  }
+}

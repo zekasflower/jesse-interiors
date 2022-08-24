@@ -8,8 +8,8 @@ module.exports = {
     extend: {
       colors: {
         neutral: {
-          50: '#F0F1EA',
-          100: '#F8F6F1',
+          50: '#F8F6F1',
+          100: '#F0F1EA',
           150: '#E5E7DD',
           200: '#E0E2D8',
           300: '#DDDFD5',
