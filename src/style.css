@@ -23,3 +23,8 @@ body { @apply font-work-sans min-h-screen bg-neutral-50 text-green-900 pt-[130px
     .icon { @apply left-2 }
   }
 }
+
+.main-title {
+  @apply font-playfair font-bold text-5xl relative mb-6;
+  &.has-circle::before { @apply content-[''] absolute -top-3.5 -left-9 w-[84px] h-[84px] rounded-full bg-yellow-500 -z-10 }
+}
