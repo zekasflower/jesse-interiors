@@ -23,7 +23,7 @@
     @apply h-full;
     .content-wrapper {
       @apply flex flex-col justify-center h-full w-[30rem]  pb-14;
-      h1 { @apply text-[66px] font-playfair font-bold leading-snug mb-4 }
+      h1 { @apply text-[66px] font-playfair font-bold leading-snug mb-4 tracking-wide }
       p { @apply text-lg font-light mb-14 }
     }
   }
