@@ -43,7 +43,7 @@
         @apply flex items-stretch;
         input { @apply flex-1 py-5 px-9 italic outline-none bg-transparent placeholder:text-green-500 text-lg border border-green-200 focus:border-green-900 transition duration-300 ease-in-out }
         button {
-          @apply flex-none font-medium uppercase inline-flex items-center gap-x-1.5 bg-green-900 text-white px-9 transition duration-300 hover:bg-opacity-80;
+          @apply flex-none font-medium uppercase inline-flex items-center gap-x-1.5 bg-green-900 text-neutral-50 px-9 transition duration-300 hover:bg-opacity-80;
           .icon { @apply text-lg }
         }
       }

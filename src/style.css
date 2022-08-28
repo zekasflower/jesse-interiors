@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-::selection { @apply bg-green-500 text-neutral-100 }
+::selection { @apply bg-transparent text-green-500 }
 body { @apply font-work-sans min-h-screen bg-neutral-50 text-green-900 pt-[130px]; }
 
 .triangle-shape {

@@ -51,6 +51,7 @@ const testimonials = ref([
 <style lang="postcss" scoped>
 .testimonials-section {
   @apply py-36 bg-neutral-100;
+  box-shadow: 0 0 50px -10px #05363422;
   .content-wrapper {
     header {
       h5 { @apply text-lg mb-3 text-green-500 }
