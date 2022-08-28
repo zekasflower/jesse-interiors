@@ -9,6 +9,7 @@ import TestimonialsSection from '@/components/TestimonialsSection.vue'
 import NewsletterSection from '@/components/NewsletterSection.vue'
 import BlogSection from '@/components/BlogSection.vue'
 import ContactSection from '@/components/ContactSection.vue'
+import FooterSection from '@/components/FooterSection.vue'
 </script>
 
 <template>
@@ -22,4 +23,5 @@ import ContactSection from '@/components/ContactSection.vue'
   <NewsletterSection />
   <BlogSection />
   <ContactSection />
+  <FooterSection />
 </template>

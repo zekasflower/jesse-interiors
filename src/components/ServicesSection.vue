@@ -23,7 +23,7 @@
 <style lang="postcss" scoped>
 .services-section {
   @apply py-40 bg-neutral-100 relative;
-  box-shadow: 0 0 50px -10px #05363422;
+  box-shadow: 0px 0 45px 1px rgba(93, 102, 39, 0.04);
     .content-wrapper {
     @apply flex gap-x-[76px];
     .left-section {

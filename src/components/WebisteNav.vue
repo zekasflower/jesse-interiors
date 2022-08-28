@@ -15,7 +15,7 @@ const NavbarLinks = ref(['Home', 'About', 'Services', 'Works', 'Blog', 'Contact'
         <div class="left-side">
           <ul class="nav-links">
             <li v-for="link in NavbarLinks" :key="link">
-              <a href="#" class="nav-link" v-html="link" :class="{ active: ActiveLink === link }" @click="ActiveLink = link"></a>
+              <a href="#" class="nav-link" v-html="link" :class="{ active: ActiveLink === link }" @click.prevent="ActiveLink = link"></a>
             </li>
           </ul>
           <div class="nav-actions">
@@ -31,7 +31,7 @@ const NavbarLinks = ref(['Home', 'About', 'Services', 'Works', 'Blog', 'Contact'
 <style lang="postcss" scoped>
 .site-navbar {
   @apply fixed top-0 left-0 bg-neutral-50 w-full h-[130px] flex items-center z-40;
-  box-shadow: 0 0 50px #05363433;
+  box-shadow: 0px 0 45px 1px rgba(93, 102, 39, 0.04);
   .content-wrapper {
     @apply flex items-center justify-between;
     .left-side {

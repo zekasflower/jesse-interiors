@@ -20,7 +20,7 @@
 <style lang="postcss" scoped>
 .contact-section {
   @apply py-[150px] bg-neutral-100;
-  box-shadow: 0 0 50px -10px #05363422;
+  box-shadow: 0px 0 45px 1px rgba(93, 102, 39, 0.04);
   .content-wrapper {
     @apply relative flex items-center gap-x-40 justify-between mx-auto max-w-[78.75rem] z-10;
     .dots-img { @apply absolute rotate-45 top-1/2 -translate-y-1/2 -left-56 -z-10 }
