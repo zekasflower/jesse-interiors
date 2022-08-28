@@ -1,5 +1,5 @@
 <template>
-  <section class="about-me">
+  <section class="newsletter-section">
     <div class="container">
       <div class="content-wrapper">
         <div class="pic-section">
@@ -23,7 +23,7 @@
 </template>
 
 <style lang="postcss" scoped>
-.about-me {
+.newsletter-section {
   @apply py-48 relative overflow-hidden;
   .content-wrapper {
     @apply flex gap-x-32 items-center;
