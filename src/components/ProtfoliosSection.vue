@@ -45,7 +45,7 @@ const portfolios = ref([
 
 <style lang="postcss" scoped>
 .portfolios-section {
-  @apply pt-44 pb-48 relative text-center;
+  @apply pt-44 pb-48 relative text-center overflow-hidden;
   .content-wrapper {
     .section-info {
       @apply pb-[105px];
