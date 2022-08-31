@@ -19,7 +19,7 @@ const portfolios = ref([
 </script>
 
 <template>
-  <section class="portfolios-section">
+  <section class="portfolios-section" id="Works">
     <div class="triangle-shape bottom-left"></div>
     <div class="container">
       <div class="content-wrapper">

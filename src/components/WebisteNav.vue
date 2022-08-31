@@ -1,8 +1,26 @@
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref, watchEffect } from 'vue'
 
 const ActiveLink = ref('Home')
 const NavbarLinks = ref(['Home', 'About', 'Services', 'Works', 'Blog', 'Contact'])
+const linksOffsets = ref([])
+
+onMounted(() => {
+  setTimeout(() => {
+    NavbarLinks.value.forEach((link) => {
+      linksOffsets.value.push(document.getElementById(link).offsetTop)
+      console.log(link + ' ====== ' + document.getElementById(link).offsetTop )
+    })
+  }, 100);
+  window.addEventListener('scroll', () => {
+    // console.log(window.scrollY)
+    linksOffsets.value.forEach((offset, index) => {
+      if (window.scrollY >= (offset - 500)) {
+        ActiveLink.value = NavbarLinks.value[index]
+      }
+    })
+  })
+})
 </script>
 
 <template>
@@ -15,7 +33,7 @@ const NavbarLinks = ref(['Home', 'About', 'Services', 'Works', 'Blog', 'Contact'
         <div class="left-side">
           <ul class="nav-links">
             <li v-for="link in NavbarLinks" :key="link">
-              <a href="#" class="nav-link" v-html="link" :class="{ active: ActiveLink === link }" @click.prevent="ActiveLink = link"></a>
+              <a :href="'#' + link" class="nav-link" v-html="link" :class="{ active: ActiveLink === link }" @click="ActiveLink = link"></a>
             </li>
           </ul>
           <div class="nav-actions">

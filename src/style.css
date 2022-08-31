@@ -4,8 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+:root { @apply scroll-smooth }
 ::selection { @apply bg-transparent text-green-500 }
-body { @apply font-work-sans min-h-screen bg-neutral-50 text-green-900 pt-[130px]; }
+body { @apply font-work-sans min-h-screen bg-neutral-50 text-green-900; }
 
 .triangle-shape {
   @apply absolute border-[54px] border-yellow-500;

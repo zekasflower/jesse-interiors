@@ -13,7 +13,7 @@ const articles = ref([
 </script>
 
 <template>
-  <section class="blog-section">
+  <section class="blog-section" id="Blog">
     <div class="container">
       <div class="content-wrapper">
         <div class="section-info">
@@ -39,7 +39,7 @@ const articles = ref([
 
 <style lang="postcss" scoped>
 .blog-section {
-  @apply pt-8 pb-48 relative text-center overflow-hidden;
+  @apply pt-40 pb-20 relative text-center overflow-hidden;
   .content-wrapper {
     .section-info {
       @apply pb-16;

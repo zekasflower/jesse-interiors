@@ -24,7 +24,7 @@
 
 <style lang="postcss" scoped>
 .newsletter-section {
-  @apply py-48 relative overflow-hidden;
+  @apply pb-48 pt-20 relative overflow-hidden;
   .content-wrapper {
     @apply flex gap-x-32 items-center;
     .pic-section {

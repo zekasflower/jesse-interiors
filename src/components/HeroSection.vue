@@ -1,17 +1,19 @@
 <template>
-  <header class="hero-section">
-    <div class="triangle-shape bottom-left"></div>
-    <img src="@/assets/images/hero-1.png" class="bg-img">
-    <div class="container">
-      <div class="content-wrapper">
-        <h1>Nautical Modern Style</h1>
-        <p>Suspendisse tempus rhoncus enim pellentesque est vehicula vitae eget. Viverra imperdiet felis sollicitudin pellentesque cursus sit feugiat hac porttitor.</p>
-        <button class="btn-primary">
-          View Project <Icon icon="heroicons-outline:arrow-narrow-right" class="icon" />
-        </button>
+  <section class="pt-[130px]" id="Home">
+    <header class="hero-section" id="Home">
+      <div class="triangle-shape bottom-left"></div>
+      <img src="@/assets/images/hero-1.png" class="bg-img">
+      <div class="container">
+        <div class="content-wrapper">
+          <h1>Nautical Modern Style</h1>
+          <p>Suspendisse tempus rhoncus enim pellentesque est vehicula vitae eget. Viverra imperdiet felis sollicitudin pellentesque cursus sit feugiat hac porttitor.</p>
+          <button class="btn-primary">
+            View Project <Icon icon="heroicons-outline:arrow-narrow-right" class="icon" />
+          </button>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
+  </section>
 </template>
 
 <style lang="postcss" scoped>

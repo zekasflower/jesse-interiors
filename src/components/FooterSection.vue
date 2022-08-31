@@ -20,7 +20,7 @@ const ContactLinks = ref(['info@templatesjungle.com', '15Th Street Avenue, New Y
           <h3>Quick links </h3>
           <ul>
             <li v-for="link in QuickLinks" :key="link">
-              <a href="#" v-html="link" :class="{ 'font-normal': ActiveLink === link }" @click.prevent="ActiveLink = link"></a>
+              <a :href="'#' + link" v-html="link" :class="{ 'font-normal': ActiveLink === link }" @click="ActiveLink = link"></a>
             </li>
           </ul>
         </div>

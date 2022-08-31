@@ -1,5 +1,5 @@
 <template>
-  <section class="contact-section">
+  <section class="contact-section" id="Contact">
     <div class="container">
       <div class="content-wrapper">
         <img src="@/assets/images/dots.png" class="dots-img">
